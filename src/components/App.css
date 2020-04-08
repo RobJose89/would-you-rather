@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  background-color: #282c34;
+  color: white;  
+}
+
+.Nav {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: yellow !important;
+}
+
+.Nav a{
+  color: white !important;
+}
+
+.AnsweredTitle {
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 2px;
+  padding: 0 2px 0 2px;
+  cursor: pointer;
+}
+
+.UnansweredTitle {
+  border-style: solid;
+  border-width: 2px;
+  margin-left: 2px;
+  padding: 0 2px 0 2px;
+  cursor: pointer;
+}
+
+.AuthorName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 375px;
+  margin-top: 15px;
+}
+
+.QuestionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 375px;
+}
+
+.QuestionDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  margin-left: 5px;
+  width: 325px;
+}
+
+.QuestionDetails ul {
+  margin: 0px;
+  padding-left: 23px;
+}
+
+.QuestionResults {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  margin-left: 5px;
+  width: 225px;
+}
+.QuestionResults .QuestionBorder {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 5px 5px 10px;
+}
+
+.QuestionBorder > div {
+  padding-left: 5px;
+}
+
+.QuestionResults .QuestionAnswer {
+  display: flex;
+  flex-direction: row;
+ }
+
+.QuestionAnswer div:first-child {
+  width: 90%;
+}
+
+.Checkmark {
+  text-align: right;
+  color:green;
+  padding:0 6px 0 0;
+}
+
+.GreenBorder {
+  border-color: green;
+}
+
+.ButtonSize {
+  width: 100px;
+  align-self: center;
+  margin: 4px 0 4px 0;
+}
+
+.LeaderBoard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 325px;
+}
+
+.LeaderBoardDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+  margin-left: 5px;
+  width: 150px;
+}
+
+.LeaderBoardTotal {
+  text-align: center;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
